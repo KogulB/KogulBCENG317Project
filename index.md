@@ -5,7 +5,7 @@ One Paragraph of project description goes here
 
 #### Dual Color LED Proof of purchase
 
-![Parts](hhttps://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/documentation/Dual%20Color%20Led.jpg)
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/documentation/Dual%20Color%20Led.jpg)
 	
 	
 #### ADD To DA Converter Purchase  
