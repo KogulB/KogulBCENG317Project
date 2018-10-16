@@ -2,6 +2,7 @@
 
 One Paragraph of project description goes here
 
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/ProofofDelivery.PNG)
 
 #### Dual Color LED Proof of purchase
 
@@ -16,4 +17,3 @@ One Paragraph of project description goes here
 
 ![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/documentation/UsbandRpi3.PNG)
 
-![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/ProofofDelivery.PNG)
