@@ -2,7 +2,9 @@
 
 One Paragraph of project description goes here
 
-![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/ProofofDelivery.PNG)
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/KogulSoldering.jpg)
+
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/ProofofDelivery.PNG)ss
 
 #### Dual Color LED Proof of purchase
 
