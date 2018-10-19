@@ -1,8 +1,7 @@
 # CENG 317 Hardware Project
 
-![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/KogulSoldering.png)
 
-![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/ProofofDelivery.PNG)ss
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/KogulSoldering.png)
 
 #### Dual Color LED Proof of purchase
 
