@@ -1,5 +1,12 @@
 # CENG 317 Hardware Project
 
+![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg)
+
+![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PCF8591.png)
+
+![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PiScreen.jpeg)
+
+![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/Assigned.PNG)
 
 ![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/KogulSoldering.png)
 
