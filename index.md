@@ -1,4 +1,4 @@
-# CENG 317 Hardware Project
+# Kogul's CENG 317 Hardware Project
 
 ### Week 9
 
@@ -8,7 +8,6 @@ In class I worked on further developing my fritzing diagram so I was able to get
 I ran into some trouble with my diagram as it was not accurate enough to be able to create
 a PCB board. Looking back at last years project Student Sense Hat I was able to reference my IC
 as my PCF8591 was used in that project. With some help from the instructor I was able to figure out how to do the correct version of my fritzing diagram and complete my PCB layout successfully here are screenshots of my completed layout, breadboard and schematic:
-
 
 ![PCF8591ImagePCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)
 
