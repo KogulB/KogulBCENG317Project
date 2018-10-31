@@ -2,6 +2,14 @@
 
 ### Week 9
 
+#### October 30, 2018
+
+In class I worked on further developing my fritzing diagram so I was able to get a PCB printout.
+I ran into some trouble with my diagram as it was not accurate enough to be able to create
+a PCB board. Looking back at last years project Student Sense Hat I was able to reference my IC
+as my PCF8591 was used in that project. With some help from the instructor I was able to figure out how to do the correct version of my fritzing diagram and complete my PCB layout successfully here are screenshots of my completed layout, breadboard and schematic:
+
+
 ![PCF8591ImagePCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)
 
 ![PCF8591ImageBB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG)
@@ -9,11 +17,12 @@
 ![PCF8591ImageSch](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591Schematic.PNG)
 
 
+
 ### Week 8
 #### Oct 23, 2018
 
- # Today in class I started doing some quick research on how to wire my PCF8591 to the 
- bred board so that it could connect to my Rpi 3. I attempted to connect my Rpi to the breadboard which had my IC mounted using alligator clippers. 
+ Today in class I started doing some quick research on how to wire my PCF8591 to the 
+ bread board so that it could connect to my Rpi 3. I attempted to connect my Rpi to the breadboard which had my IC mounted using alligator clippers. 
  After further explanation from my instructor I was told that using alligator clips could essentially damage my “pie” as the clips were too close together and touching. 
  I decided I was going to finish the rewiring at home with the proper wires that came with the chip. 
  My next step was to locate a Display adapter, so I could do a proper setup of NOOBs on the Rpi 3. 
