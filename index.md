@@ -7,6 +7,10 @@
 ##### Soldered Board
 ![SolderedBoard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCBBoardSoldered.jpg)
 
+##### Light up Sensor with PCB Board
+
+![Rpi3SolderedBoard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/Illumination.png)
+
 Today in class I started working on soldering my PCB board to be able to attach it to the Rpi 3.
 I ran into some trouble as I did not have any stackable header pins of my own but was able to find some extra ones in the Prototype Lab.
 The soldering was a bit difficult for me as I did not have any prior experience doing it myself.
