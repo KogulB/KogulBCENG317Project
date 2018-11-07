@@ -7,17 +7,17 @@
 ##### Soldered Board
 ![SolderedBoard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCBBoardSoldered.jpg)
 
-Today in class I started working on soldering my PCB board in order to be able to attach to the Rpi 3.
+Today in class I started working on soldering my PCB board to be able to attach it to the Rpi 3.
 I ran into some trouble as I did not have any stackable header pins of my own but was able to find some extra ones in the Prototype Lab.
-The soldering was a bit difficult for me as I did not have any prior experience in doing it myself.
-I had trouble figuring out what temperature to use to make sure the solder actually stuck.
-My collegue and instructor were able to point me in the right direction and help me solder the board successfully.
-After soldering I made sure everything was fine with my board by getting a second opinon as well as checking it under the microscope.
-I was able to plug in my sensor to my board and my boardto my development platform which in turn caused a light to illuminate on the sensor.
-Further testing will be done by applying the I2cdetect command. As I have fully completed my soldering diagram today I am still on track with my
-[project schedule](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Schedule.mpp).
-My [Budget Calculation]( is still roughly the same as I was able to find the pins I needed in the ProtoType Lab.
- 
+The soldering was a bit difficult for me as I did not have any prior experience doing it myself.
+I had trouble figuring out what temperature to use to make sure the solder stuck.
+My colleague and instructor were able to point me in the right direction and help me solder the board successfully.
+After soldering I made sure everything was fine with my board by getting a second opinion as well as checking it under the microscope.
+I was able to plug in my sensor to my board and my board to my development platform which in turn caused a light to illuminate on the sensor.
+Further testing will be done by applying the I2cdetect command. As I have fully completed my soldering diagram today I am still on track with my [project schedule](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Schedule.mpp).
+My [Budget Calculation](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) 
+is still roughly the same as I was able to find the pins I needed in the Prototype Lab.
+
 
 
 ### Week 9
