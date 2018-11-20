@@ -9,8 +9,6 @@ Today in class I completed my design for the [Enclosure](https://github.com/Kogu
 ##### Coral Draw Screenshot
 ![CorelDraw File](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/CORELDiagram.PNG)
 
-
-
 ### Week 11
 
 #### November 13, 2018
