@@ -1,5 +1,16 @@
 # Kogul's CENG 317 Hardware Project
 
+### Week 12 ([Coral Diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCF.cdr))
+
+#### November 20, 2018
+
+Today in class I completed my design for the [Enclosure](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCF.cdr) that is supposed to fit my Raspberry Pi as well as my IC and PCB Board. Starting this part of the project was a bit difficult for me as I have never used CorelDraw to design anything before. I used the resources from the Prototype Lab to successfully design the casing for my project. Since there was a wait time for the printing I was unable to acquire the parts. Will upload fully covered enclosure as soon as I put it together. Since I was able to finish the diagram today but not able to obtain my enclosure I am delay according to my [project schedule](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Schedule.mp). No further purchases were made this week so my [Budget](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) did not change.
+
+##### Coral Draw Screenshot
+![CorelDraw File](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/CORELDiagram.PNG)
+
+
+
 ### Week 11
 
 #### November 13, 2018
