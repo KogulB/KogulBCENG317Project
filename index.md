@@ -80,9 +80,11 @@ as my PCF8591 was used in that project. With some help from the instructor I was
 
 ![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PiScreen.jpeg)
 
+
 ![PiSetup](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/Assigned.PNG)
 
-![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/KogulSoldering.png)
+##### Soldering my board
+![Parts](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/CroppedSoldering.jpg)
 
 #### Dual Color LED Proof of purchase
 
