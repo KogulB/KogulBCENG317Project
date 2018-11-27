@@ -1,4 +1,4 @@
-# Kogul's CENG 317 Hardware Project
+# [Kogul's CENG 317 Hardware Project](https://github.com/KogulB/KogulBCENG317Project)
 
 ### Week 13([Project Enclosure](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCFRevision8.cdr))
 
