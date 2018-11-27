@@ -1,10 +1,23 @@
 # Kogul's CENG 317 Hardware Project
 
+### Week 13([Project Enclosure](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCFRevision8.cdr))
+
+#### November 27,2018
+ This week I had to fix my Corel Draw design since my Enclosure did not fit my case due to dimension issues. This part of the project gave me some difficulty because I had very limited knowledge on CorelDraw and I am particularly weak when it comes to designing stuff through a program. After getting help from the proto type lab I was able to design my case successfully in a way that it could enclose my Rpi as well as my IC and PCB Board.
+
+##### Updated Corel Draw Screenshot
+
+![Updated CorelDraw](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/CORELDiagram.PNG)
+
+##### Complelted Enclosure
+
+![Enclosure](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PiEnclosure.jpg)
+
 ### Week 12 ([Coral Diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCF.cdr))
 
 #### November 20, 2018
 
-Today in class I completed my design for the [Enclosure](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCF.cdr) that is supposed to fit my Raspberry Pi as well as my IC and PCB Board. Starting this part of the project was a bit difficult for me as I have never used CorelDraw to design anything before. I used the resources from the Prototype Lab to successfully design the casing for my project. Since there was a wait time for the printing I was unable to acquire the parts. Will upload fully covered enclosure as soon as I put it together. Since I was able to finish the diagram today but not able to obtain my enclosure I am delayed according to my [project schedule](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Schedule.mpp). No further purchases were made this week so my [Budget](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) did not change.
+Today in class I completed my design for the [Enclosure](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/myPiCasePCFRevision8.cdr) that is supposed to fit my Raspberry Pi as well as my IC and PCB Board. Starting this part of the project was a bit difficult for me as I have never used CorelDraw to design anything before. I used the resources from the Prototype Lab to successfully design the casing for my project. Since there was a wait time for the printing I was unable to acquire the parts. Will upload fully covered enclosure as soon as I put it together. Since I was able to finish the diagram today but not able to obtain my enclosure I am delayed according to my [project schedule](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Schedule.mpp). No further purchases were made this week so my [Budget](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) did not change.
 
 ##### Coral Draw Screenshot
 ![CorelDraw File](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/CORELDiagram.PNG)
