@@ -56,26 +56,26 @@ After making the connections a red indicator light on the Sensor should light up
 
 After powering the Rpi make sure you test if the address the 8591 is connected to is actually correct
 
-Connnect Pi to a display using HDMI wire(or HDMI adapter)
-Turn on the Pi (wait for it to boot up)
-open a terminal window
-run the command sudo raspi config
-Enable I2C Address
-Exit out
-run sudo reboot
-after reboot open another terminal window
-and run the command  sudo I2Cdetect -y 1
-it should show that the address is 0x48
+#### Connnect Pi to a display using HDMI wire(or HDMI adapter)
+#### Turn on the Pi (wait for it to boot up)
+#### open a terminal window
+#### run the command sudo raspi config
+#### Enable I2C Address
+#### Exit out
+#### run sudo reboot
+#### after reboot open another terminal window
+#### run the command  sudo I2Cdetect -y 1
+#### it should show that the address is 0x48
 
 [Example](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/Assigned.PNG)
 
 ## 8 Unit Testing
 
-run the command sudo git clone https://github.com/six0four/StudentSenseHat.git
-This should clone the Student Sense Hat git to your root folder
-run cd /StudentSenseHat/firmware
-then run gcc -Wall -o traffic2B traffic2B.c -lwiringPi to compile the code
-then to run the code sudo ./traffic2B
+#### run the command sudo git clone https://github.com/six0four/StudentSenseHat.git
+#### This should clone the Student Sense Hat git to your root folder
+#### run cd /StudentSenseHat/firmware
+#### then run gcc -Wall -o traffic2B traffic2B.c -lwiringPi to compile the code
+#### then to run the code sudo ./traffic2B
 
 This should cause a green [light](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/LightSensor.jpg) to emit from the Pi. And the data being read should change the luminosity based on the light sensor on the PCF8591.
 
