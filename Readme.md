@@ -1,88 +1,88 @@
 # CENG 317 PCF8591
 
-The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591.
+The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591. I will use this sensor with my partners next semester as a collabaration project. This semester I had to do some research on my sensor to learn about how much it cost and what I needed to make it work with the Raspberry Pi. I put together Budget Plan and a project Scehdule to help me utilize my porject in a successful manner.
+
+## Introduction - System Diagram
+
+![SystemDiagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/SystemDiagram.PNG)
+
+## 2 Budget Plan/Bill
+
+The main components of the project was Rpi 3 Kit which included power cable, PCF8591, Jumper cables, HDMI cable and Ethernet wire and adpater. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
+
+## 3 Time Commitment 
+
+The time it took to do the research portion of my project took about two hours to find all the components needed to get my IC up and running.
+
+The materials took about two days to ship and for me to get them. They were ordered from amazon. The PCF 8591 was however bought at the local Creatron store. 
+
+After getting all the components hooking up the Rpi 3 to the senseor took around 3 hours. Toughest part of putting it together was figuring out where each part goes and how to connect it using a breadboard. I used a diagram from google to find out where each connector goes on the pcf8591 and also a diagram of Rpi 3 pin layout to figure where each connection is established. 
+
+After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB Diagram. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections dont overlap.
+
+This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG).
+
+Creating the code for testing was not hard as all I had to do was pull the code from the StudentSenseHat Git. Since PCF8591 was used in that project Testing took about 30 minutes
+
+### Total Commitment: 14 hours(excluding shipping)
+
+## 4 PCB/Soldering
 
 
-## Getting Started
+I had to cut off the pins located on the PCF8591 and solder header pins on both sides so I could connect it to my breadbaord. This was my first attempt at soldering so it was much more difficult.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I also had to solder new header pins on to my PCB so I could connect my Rpi and Sensor to the PCB. Soldering this time was easierbut involved more. 
 
-### Prerequisites
+## 5 Mechanical Assembly
 
-What things you need to install the software and how to install them
+Raspberry Pi 3: The Rpi 3 kit came with a power supply and case which invloved connection easier
 
-```
-Give examples
-```
+PCF8591: Connect the PCF8591 to the Pins specified in my Diagram. Refer to this [diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/PCF8591PCBLayout/BreadBoardLayout.PNG). and [here](https://www.google.ca/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwii_Lrb1Y7fAhUp4oMKHcq3BWIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.hackster.io%2Fthe-swiftpi-team%2Fswift-3-0-for-raspberry-pi-gpio-getting-started-393dd4&psig=AOvVaw19PAFSxnl2kqb4zXchUYGP&ust=1544304766474030) for the Rpi Pin layout.
 
-### Installing
+VCC connects to Pin 2(5V)
+GND connects to Pin 6(GND)
+SDA connects to Pin 3(SDA1 I2C)
+SCL connects to Pin 5 (SCL1 I2C)
 
-A step by step series of examples that tell you how to get a development env running
+Breadboard: When connecting to the breadboard I used ribbon cables provided with the board as well as jumper cables from my parts kit to connect the Rpi.
 
-Say what the step will be
+The diagram should look something like this when using a [breadboard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg).
 
-```
-Give the example
-```
+## 6 Power Up
 
-And repeat
+After making the connections a red indicator light on the Sensor should light up. Suggestion: connect the Rpi 3 GND pin first before connecting the power pin.
 
-```
-until finished
-```
+## 7 Production Testing
 
-End with an example of getting some data out of the system or using it for a little demo
+After powering the Rpi make sure you test if the address the 8591 is connected to is actually correct
 
-## Running the tests
+Connnect Pi to a display using HDMI wire(or HDMI adapter)
+Turn on the Pi (wait for it to boot up)
+open a terminal window
+run the command sudo raspi config
+Enable I2C Address
+Exit out
+run sudo reboot
+after reboot open another terminal window
+and run the command  sudo I2Cdetect -y 1
+it should show that the address is 0x48
 
-Explain how to run the automated tests for this system
+[Example](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/Assigned.PNG)
 
-### Break down into end to end tests
+## 8 Unit Testing
 
-Explain what these tests test and why
+run the command sudo git clone https://github.com/six0four/StudentSenseHat.git
+This should clone the Student Sense Hat git to your root folder
+run cd /StudentSenseHat/firmware
+then run gcc -Wall -o traffic2B traffic2B.c -lwiringPi to compile the code
+then to run the code sudo ./traffic2B
 
-```
-Give an example
-```
+This should cause a green [light](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/LightSensor.jpg) to emit from the Pi. And the data being read should change the luminosity based on the light sensor on the PCF8591.
 
-### And coding style tests
+To test try covering the sensor with your hand to see what happens to the luminosity value(Light). 
 
-Explain what these tests test and why
+## 9 Project Reusablility 
 
-```
-Give an example
-```
+Based on the everything that was collected from research and testing the project should be reproudcible by anyone with a basic understanding of electronic components.
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
