@@ -63,16 +63,16 @@ After making the connections a red indicator light on the Sensor should light up
 
 After powering the Rpi make sure you test if the address the 8591 is connected to is actually correct
 
- 1.Connnect Pi to a display using HDMI wire(or HDMI adapter)
- 2.Turn on the Pi (wait for it to boot up)
- 3.open a terminal window
- 4.run the command sudo raspi config
- 5.Enable I2C Address
- 6.Exit out
- 7.run sudo reboot
- 8.after reboot open another terminal window
- 9.run the command  sudo I2Cdetect -y 1
- 10.it should show that the address is 0x48
+ 1. Connnect Pi to a display using HDMI wire(or HDMI adapter)
+ 2. Turn on the Pi (wait for it to boot up)
+ 3. Open a terminal window
+ 4. Run the command sudo raspi config
+ 5. Enable I2C Address
+ 6. Exit out
+ 7. Run sudo reboot
+ 8. After reboot open another terminal window
+ 9. Run the command  sudo I2Cdetect -y 1
+ 10. It should show that the address is 0x48
 
 [Example](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/Assigned.PNG)
 
