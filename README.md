@@ -20,7 +20,7 @@ After getting all the components hooking up the Rpi 3 to the senseor took around
 
 After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB Diagram. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections dont overlap.
 
-This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG).
+This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCBBoardSoldered.jpg) attached to my Rpi 3.
 
 Creating the code for testing was not hard as all I had to do was pull the code from the StudentSenseHat Git. Since PCF8591 was used in that project Testing took about 30 minutes
 
