@@ -21,7 +21,7 @@ After getting all the components hooking up the Rpi 3 to the sensor took around 
 
 After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections didn’t overlap. At the end this is how the PCB should look like.
 
-![PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)).
+![PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)
 
 Creating the code for testing is not hard at all. Pull code from StudentSenseHat Git. Since PCF8591 was used in that project Testing took about 30 minutes.
 
@@ -53,7 +53,7 @@ Breadboard: When connecting to the breadboard I used ribbon cables provided with
 
 The diagram should look something like this if using a breadboard 
 
-![breadboard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg).
+![breadboard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg)
 
 ## 6 Power Up
 
@@ -88,4 +88,10 @@ This should cause a green [light](https://raw.githubusercontent.com/KogulB/Kogul
 
 To test try covering the sensor with your hand to see what happens to the luminosity value(Light). 
 
+## 9  Mass Production
 
+If there was to be mass production of my project what I would personally change is not soldering off the pins of the stock sensor. I feel that by extending that case higher and my sensor facing up on the PCB it saves less time and effort for mass production. Similar to how the PCF8591 was setup on StudentSenseHat. I would also use a machine that solders the wires on to the PCB to save more time from me doing them myself.
+
+![studentsensehat](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/39.jpg)
+
+Source(https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/39.jpg)
