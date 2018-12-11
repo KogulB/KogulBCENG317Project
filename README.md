@@ -1,6 +1,6 @@
 # CENG 317 PCF8591
 
-The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591. I will use this sensor with my partners next semester as a collabaration project. This semester I had to do some research on my sensor to learn about how much it cost and what I needed to make it work with the Raspberry Pi. I put together Budget Plan and a project Scehdule to help me utilize my porject in a successful manner.
+The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591. I will use my sensor with my partners next semester as a collabaration project. I had to do some research on my sensor to learn about how much it would cost and what I needed to make it work with the Raspberry Pi. I put together a [Budget Plan](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) and a project Scehdule to help me utilize my porject in a successful manner.
 
 ## Introduction - System Diagram
 
@@ -8,7 +8,7 @@ The purpose of this project was to get a better understanding of the sensor I ch
 
 ## 2 Budget Plan/Bill
 
-The main components of the project was Rpi 3 Kit which included power cable, PCF8591, Jumper cables, HDMI cable and Ethernet wire and adpater. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
+The main components of the project was an Rpi 3 Kit which included a power cable and a default case. Memory card would have to be purchased sepeartely but for myself I had my own already. More purchases made were the PCF8591, Jumper cables, Ethernet wire and adpater. HDMI cable and breadboard might need to be purchased as well but I previosuly own on already. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
 
 ## 3 Time Commitment 
 
@@ -18,9 +18,9 @@ The materials took about two days to ship and for me to get them. They were orde
 
 After getting all the components hooking up the Rpi 3 to the senseor took around 3 hours. Toughest part of putting it together was figuring out where each part goes and how to connect it using a breadboard. I used a diagram from google to find out where each connector goes on the pcf8591 and also a diagram of Rpi 3 pin layout to figure where each connection is established. 
 
-After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB Diagram. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections dont overlap.
+After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections didnt overlap. At the end this is how the PCB should look like([PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)).
 
-This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG).
+This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCBBoardSoldered.jpg) attached to my Rpi 3.
 
 Creating the code for testing was not hard as all I had to do was pull the code from the StudentSenseHat Git. Since PCF8591 was used in that project Testing took about 30 minutes
 
@@ -35,7 +35,7 @@ I also had to solder new header pins on to my PCB so I could connect my Rpi and 
 
 ## 5 Mechanical Assembly
 
-Raspberry Pi 3: The Rpi 3 kit came with a power supply and case which invloved connection easier
+Raspberry Pi 3: The Rpi 3 kit came with a power supply and case which made connection easier
 
 PCF8591: Connect the PCF8591 to the Pins specified in my Diagram. Refer to this [diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/PCF8591PCBLayout/BreadBoardLayout.PNG). and [here](https://www.google.ca/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwii_Lrb1Y7fAhUp4oMKHcq3BWIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.hackster.io%2Fthe-swiftpi-team%2Fswift-3-0-for-raspberry-pi-gpio-getting-started-393dd4&psig=AOvVaw19PAFSxnl2kqb4zXchUYGP&ust=1544304766474030) for the Rpi Pin layout.
 
@@ -47,6 +47,8 @@ SCL connects to Pin 5 (SCL1 I2C)
 Breadboard: When connecting to the breadboard I used ribbon cables provided with the board as well as jumper cables from my parts kit to connect the Rpi.
 
 The diagram should look something like this when using a [breadboard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg).
+
+The Enclosure for the Pi and PCB should look like [this](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PiEnclosure.jpg).
 
 ## 6 Power Up
 
@@ -80,9 +82,5 @@ After powering the Rpi make sure you test if the address the 8591 is connected t
 This should cause a green [light](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/LightSensor.jpg) to emit from the Pi. And the data being read should change the luminosity based on the light sensor on the PCF8591.
 
 To test try covering the sensor with your hand to see what happens to the luminosity value(Light). 
-
-## 9 Project Reusablility 
-
-Based on the everything that was collected from research and testing the project should be reproudcible by anyone with a basic understanding of electronic components.
 
 
