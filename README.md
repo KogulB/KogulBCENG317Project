@@ -35,7 +35,7 @@ I also had to solder new header pins on to my PCB so I could connect my Rpi and 
 
 ## 5 Mechanical Assembly
 
-Raspberry Pi 3: The Rpi 3 kit came with a power supply and case which invloved connection easier
+Raspberry Pi 3: The Rpi 3 kit came with a power supply and case which made connection easier
 
 PCF8591: Connect the PCF8591 to the Pins specified in my Diagram. Refer to this [diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/PCF8591PCBLayout/BreadBoardLayout.PNG). and [here](https://www.google.ca/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwii_Lrb1Y7fAhUp4oMKHcq3BWIQjRx6BAgBEAU&url=https%3A%2F%2Fwww.hackster.io%2Fthe-swiftpi-team%2Fswift-3-0-for-raspberry-pi-gpio-getting-started-393dd4&psig=AOvVaw19PAFSxnl2kqb4zXchUYGP&ust=1544304766474030) for the Rpi Pin layout.
 
