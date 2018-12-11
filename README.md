@@ -18,7 +18,7 @@ The materials took about two days to ship and for me to get them. They were orde
 
 After getting all the components hooking up the Rpi 3 to the senseor took around 3 hours. Toughest part of putting it together was figuring out where each part goes and how to connect it using a breadboard. I used a diagram from google to find out where each connector goes on the pcf8591 and also a diagram of Rpi 3 pin layout to figure where each connection is established. 
 
-After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB Diagram. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections dont overlap.
+After figuring out the connection I spent about two hours creating the connection [diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/BreadBoardLayout.PNG). This diagram gave me a version of a PCB. I spent another 5 hours designing and moving around the PCB diagram by adding Vias to it and making sure the connections didnt overlap. At the end this is how the PCB should look like([PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591PCB.PNG)).
 
 This is a picture of the finished [PCB](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCBBoardSoldered.jpg) attached to my Rpi 3.
 
