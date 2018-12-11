@@ -8,7 +8,7 @@ The purpose of this project was to get a better understanding of the sensor I ch
 
 ## 2 Budget Plan/Bill
 
-The main components of the project was an Rpi 3 Kit which included a power cable default case. Memory card would have to be purchased sepeartely but for myself I had my own already. More purchases made were the PCF8591, Jumper cables, Ethernet wire and adpater. HDMI cable and breadboard might need to be purchased as well but I previosuly own on already. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
+The main components of the project was an Rpi 3 Kit which included a power cable and a default case. Memory card would have to be purchased sepeartely but for myself I had my own already. More purchases made were the PCF8591, Jumper cables, Ethernet wire and adpater. HDMI cable and breadboard might need to be purchased as well but I previosuly own on already. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
 
 ## 3 Time Commitment 
 
