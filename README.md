@@ -48,6 +48,8 @@ Breadboard: When connecting to the breadboard I used ribbon cables provided with
 
 The diagram should look something like this when using a [breadboard](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/piSetupjpeg.jpeg).
 
+The Enclosure for the Pi and PCB should look like [this](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/Images/PiEnclosure.jpg).
+
 ## 6 Power Up
 
 After making the connections a red indicator light on the Sensor should light up. Suggestion: connect the Rpi 3 GND pin first before connecting the power pin.
