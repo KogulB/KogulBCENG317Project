@@ -81,8 +81,4 @@ This should cause a green [light](https://raw.githubusercontent.com/KogulB/Kogul
 
 To test try covering the sensor with your hand to see what happens to the luminosity value(Light). 
 
-## 9 Project Reusablility 
-
-Based on the everything that was collected from research and testing the project should be reproudcible by anyone with a basic understanding of electronic components.
-
 
