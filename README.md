@@ -1,6 +1,6 @@
 # CENG 317 PCF8591
 
-The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591. I will use this sensor with my partners next semester as a collabaration project. This semester I had to do some research on my sensor to learn about how much it cost and what I needed to make it work with the Raspberry Pi. I put together Budget Plan and a project Scehdule to help me utilize my porject in a successful manner.
+The purpose of this project was to get a better understanding of the sensor I chose which was a PCF8591. I will use my sensor with my partners next semester as a collabaration project. I had to do some research on my sensor to learn about how much it would cost and what I needed to make it work with the Raspberry Pi. I put together a [Budget Plan](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx) and a project Scehdule to help me utilize my porject in a successful manner.
 
 ## Introduction - System Diagram
 
@@ -8,7 +8,7 @@ The purpose of this project was to get a better understanding of the sensor I ch
 
 ## 2 Budget Plan/Bill
 
-The main components of the project was Rpi 3 Kit which included power cable, PCF8591, Jumper cables, HDMI cable and Ethernet wire and adpater. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
+The main components of the project was an Rpi 3 Kit which included a power cable default case. Memory card would have to be purchased sepeartely but for myself I had my own already. More purchases made were the PCF8591, Jumper cables, Ethernet wire and adpater. HDMI cable and breadboard might need to be purchased as well but I previosuly own on already. There are however some extra parts purchased for testing but were never user used. The link to my budget plan can be found [here](https://github.com/KogulB/KogulBCENG317Project/blob/master/documentation/Budget.xlsx).
 
 ## 3 Time Commitment 
 
