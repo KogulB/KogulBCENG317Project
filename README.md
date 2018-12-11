@@ -40,7 +40,9 @@ solder new header pins on to PCB so connections to Rpi and sensor is possible.
 Raspberry Pi 3: Since the Rpi 3 kit came with a power supply and case it connection easier
 
 PCF8591: Connect the PCF8591 to the Pins specified in the Diagram below as well as the proper connection to the Rpi.
-![diagram](https://github.com/KogulB/KogulBCENG317Project/blob/master/PCF8591PCBLayout/BreadBoardLayout.PNG)
+
+![diagram](https://raw.githubusercontent.com/KogulB/KogulBCENG317Project/master/PCF8591PCBLayout/PCF8591Schematic.PNG)
+
 Source: hackster.imgix.net
 ![here](https://hackster.imgix.net/uploads/attachments/217647/oDRh4lpYwoZHHrJiQR64.png?auto=compress%2Cformat&w=740&h=555&fit=max) 
 
